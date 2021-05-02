@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Charmonman:wght@700&family=Dancing+Script:wght@500&family=Lato:ital,wght@0,100;1,700&family=Original+Surfer&family=Ubuntu:wght@300&display=swap');
+
+
+body{
+  overflow-x: hidden;
+  width: 100%;
+  margin:0;
+  text-align:center;
+  background:linear-gradient(-45deg, pink ,#ff9292,#c1a1d3,#ff005c,#ffab73,violet,#1597bb) ;
+  background-size: 1000%;
+  animation: bg-anim 70s infinite;
+}
+@keyframes bg-anim{
+  0%{
+    background-position: 0;
+  }
+  50%{
+    background-position: 100% 100%;
+  }
+  100%{
+    background-position: 0;
+  }
+}
+/*********************HEADER****************************/
+header{
+  background-color:rgba(0,0,0,0)  ;
+}
+header img{
+  width: 4%;
+  margin:0 90% 0 auto;
+
+}
+header a{
+  padding: 20px;
+  color:rgba(0,0,0,0.5) /*rgba(109, 220, 207,0.7)*/;
+  text-decoration: none;
+  font-family: 'Pacifico', cursive;
+  font-weight:bold;
+
+}
+header a:hover{
+  color:rgba(0,0,0,0.8);
+}
+.navitems{
+  width:500px;
+ position: relative;
+  left:60%;
+  top: 30px;
+}
+/*********************HEADER****************************/
+main{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+main h1{
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+main h2{
+  font-family: 'Dancing Script', cursive;
+  position: relative;
+  right:4%;
+  bottom:30px;
+}
+.boy-img{
+  position: absolute;
+  top:90px;
+  left:750px;
+  width:50%;
+}
+
+.box{
+  margin: 0 auto;
+  position: relative;
+  bottom: 25px;
+  height: 650px;
+  width:80%;
+  background-color: #6ddccf;
+  box-shadow: 10px 15px 20px 1px 	RGBA(0, 145, 124,0.4);
+  background: linear-gradient(-19deg,#6ddccf 30%,#cae4db 30% );
+  border-radius: 15px;
+  transition: all .5s ease;
+  overflow-x: hidden;
+
+}
+.box:hover{
+  transform: scale(1.02);
+}
+
+main h1{
+  font-size:5rem;
+    font-family: 'Charmonman', cursive;
+}
+.heyy{
+  position: relative;
+  right:25%;
+}
+.rishav{
+  position: relative;
+  right:10%;
+}
+
+
+
+
+/*********************FOOTER****************************/
+footer{
+  background-color: rgba(0,0,0,0);
+  margin-top: 80px;
+
+}
+footer img{
+  width:30px;
+  padding:40px 80px 10px 80px;
+}
+footer p{
+  text-align: center;
+}
+/*********************FOOTER****************************/
